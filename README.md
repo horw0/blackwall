@@ -1,3 +1,3 @@
 # blackwall
 Tech project / game
-Misspelled git config variable, should work now
+Changed to GPG, to hell with SSH
