@@ -1,4 +1,3 @@
 # blackwall
 Tech project / game
-Auto-signing commits!
-And doing so from GitHub Desktop
+Misspelled git config variable, should work now
