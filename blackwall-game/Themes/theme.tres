@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://cv4vrihtieiro"]
+
+[ext_resource type="FontFile" uid="uid://bpetvp7crhwmv" path="res://Fonts/pixel-operator-mono-bold.ttf" id="1_wi0rm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wtcfe"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
+bg_color = Color(0.8089983, 0.8089983, 0.80899817, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_epypp"]
+
+[resource]
+default_font = ExtResource("1_wi0rm")
+default_font_size = 16
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_wtcfe")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_0e48y")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_epypp")

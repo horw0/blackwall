@@ -1,0 +1,88 @@
+[gd_scene load_steps=8 format=3 uid="uid://cf78mdoun6yfq"]
+
+[ext_resource type="Script" uid="uid://5pb6xw3c05eq" path="res://Scenes/Game.gd" id="1_6whob"]
+[ext_resource type="Theme" uid="uid://cv4vrihtieiro" path="res://Themes/theme.tres" id="1_j2wod"]
+[ext_resource type="Script" uid="uid://cfinaaenmvif8" path="res://Scenes/ChatController.gd" id="2_hh5uf"]
+[ext_resource type="Script" uid="uid://bkqmmn8017i0g" path="res://Scenes/ChatInput.gd" id="2_v1qfn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2wod"]
+bg_color = Color(0.00566115, 0.0056611523, 0.005661145, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.16206557, 0.1620656, 0.16206548, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y32ns"]
+content_margin_left = 4.0
+content_margin_bottom = 2.0
+bg_color = Color(0.09985284, 0.09985284, 0.09985284, 0.6)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.09985284, 0.09985284, 0.09985284, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_j2wod"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_6whob")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 640.0
+offset_bottom = 360.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_j2wod")
+
+[node name="CheckButton" type="CheckButton" parent="."]
+offset_left = 264.0
+offset_top = 8.0
+offset_right = 308.0
+offset_bottom = 32.0
+focus_mode = 0
+
+[node name="InnerScreen" type="PanelContainer" parent="."]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 264.0
+offset_bottom = 184.0
+theme = ExtResource("1_j2wod")
+theme_override_styles/panel = SubResource("StyleBoxFlat_y32ns")
+
+[node name="ChatController" type="HSplitContainer" parent="InnerScreen"]
+layout_mode = 2
+theme = ExtResource("1_j2wod")
+theme_override_constants/autohide = 0
+script = ExtResource("2_hh5uf")
+
+[node name="Chat" type="VBoxContainer" parent="InnerScreen/ChatController"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ChatText" type="RichTextLabel" parent="InnerScreen/ChatController/Chat"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_j2wod")
+theme_override_font_sizes/normal_font_size = 8
+bbcode_enabled = true
+scroll_following = true
+
+[node name="ChatInput" type="LineEdit" parent="InnerScreen/ChatController/Chat" node_paths=PackedStringArray("chat_controller")]
+layout_mode = 2
+theme = ExtResource("1_j2wod")
+theme_override_font_sizes/font_size = 8
+theme_override_styles/focus = SubResource("StyleBoxEmpty_j2wod")
+keep_editing_on_text_submit = true
+context_menu_enabled = false
+emoji_menu_enabled = false
+caret_blink = true
+script = ExtResource("2_v1qfn")
+chat_controller = NodePath("../..")
+username = "ARC16"
+
+[node name="Members" type="VBoxContainer" parent="InnerScreen/ChatController"]
+custom_minimum_size = Vector2(60, 0)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="InnerScreen/ChatController/Members"]
+layout_mode = 2
+text = "Online"
