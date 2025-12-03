@@ -1,9 +1,9 @@
 [gd_scene load_steps=8 format=3 uid="uid://cf78mdoun6yfq"]
 
-[ext_resource type="Script" uid="uid://5pb6xw3c05eq" path="res://Scenes/Game.gd" id="1_6whob"]
+[ext_resource type="Script" uid="uid://5pb6xw3c05eq" path="res://Scripts/Game.gd" id="1_6whob"]
 [ext_resource type="Theme" uid="uid://cv4vrihtieiro" path="res://Themes/theme.tres" id="1_j2wod"]
-[ext_resource type="Script" uid="uid://cfinaaenmvif8" path="res://Scenes/ChatController.gd" id="2_hh5uf"]
-[ext_resource type="Script" uid="uid://bkqmmn8017i0g" path="res://Scenes/ChatInput.gd" id="2_v1qfn"]
+[ext_resource type="Script" uid="uid://cfinaaenmvif8" path="res://Scripts/ChatController.gd" id="2_hh5uf"]
+[ext_resource type="Script" uid="uid://bkqmmn8017i0g" path="res://Scripts/ChatInput.gd" id="2_v1qfn"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2wod"]
 bg_color = Color(0.00566115, 0.0056611523, 0.005661145, 1)
