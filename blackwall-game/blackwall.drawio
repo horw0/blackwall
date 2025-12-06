@@ -1,11 +1,11 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
   <diagram name="Page-1" id="ealcJ1XgrfcZ57iIXnjh">
-    <mxGraphModel dx="1416" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kOhy-JbrJ-AcUjXrUnMm-4" value="Corpos and groups" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="600" height="480" as="geometry" />
+          <mxGeometry x="40" y="40" width="680" height="470" as="geometry" />
         </mxCell>
         <mxCell id="kOhy-JbrJ-AcUjXrUnMm-5" value="Tenebra Inc." style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
           <mxGeometry x="10" y="30" width="210" height="210" as="geometry" />
@@ -22,104 +22,116 @@
         <mxCell id="kOhy-JbrJ-AcUjXrUnMm-9" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="kOhy-JbrJ-AcUjXrUnMm-5" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-1" value="&quot;Apocalypse came, and we will make most of it&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="kOhy-JbrJ-AcUjXrUnMm-5">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-1" value="&quot;Apocalypse came, and we will make most of it&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="kOhy-JbrJ-AcUjXrUnMm-5" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABAhJREFUeJztnUGS4jAMRTNTs4JbsOf+t8ktYDuz6NIUbXA7sSVL8v9v190ULSj9ZzmQZNsIIbj88i5Am9vt9lfz+fZ9X+49euW3dwHEl3Td3Ur4vu/a/+/Hv2c3BA0ATtjurSVdO+Gj1AyRxQw0ADhhurRMfLSkn6U0Q1Qj0ADguHXlaolvEdUINAA407tQkr964luIEbxNQAOAM637oiT/8Xh8+/l6vTpV8oW3CWgAcMy6LtqUL8m/XC7ffv98Prdti2MCYZYRaABw1Lssylov1JJfEsUEwqzZgAYAR627sia/BM0ENAA4f0afIFryV0Pe15f3WdUENAA4wwawRtbys2uyPH7WLqC3Tm9oAHC61xPrtb9MrlZCtY8EatfZQntXQAOAc7qLZie/RCuxgrZRhCwmoAHAOdw93skv8TpiF63OURPQAOC4HwfoPWYvj5+1/85S51loAHCa64bV2t+bKCHLDFBiVXfvLEADgDN9BoiaoKOc/YyhJNpMQAOAU10vtNf+7MmvEe11nZ0FaABwzGeAaAnRJvtMQAOAY2aAqMm3OjcwqwloAHDeJsXR6T968medG+j9PhzdDdAA4KjNAN4dX6NVl9Xam2UmoAHAGTZA1uSXoJqABgCn2wCrJL8EzQQ0ADj/94hH9/+rJr9G1HqP1tU6HkADgHN4BkBLvrD6TEADgNM0AGryS1Y1AQ0ATtUATP5nVjMBDQDOmwGY/GNkMcH9fv/x8TQAOGwAcNgA4LzNAN770hqjdWkTddYp62rd+5gGAKd6HIAm+EyW5B+FBgCn+VkATfDFaskXaABwDn8fANUEqyZfoAHA6T43MEoHl2iZIGp9Wt8FFGgAcLrPC1h1Jsie/LPQAOAMnxu4ignQki/QAOCoXR8gqwlQky/QAOCYXSk0agKsrhJWPn/0awMJNAA4ZtcJjD4TaOOd/F5oAHDMrxUc1QRaZE2+QAOAM/2eQdkTI0R7HbxnEOli+j2Dss8E0ZI/Cg0Ajvu9g7MkKmqdvHcwGcL93sG9M8HstTRLnWehAcA5vW5YzQJCK2GjidL6NNC6zhaja79AA4DT3T2zTaCVfO1vBGnX2UIr+QINAM5wF80ygdVaLWiZIEvyBRoAHPfjAC2sky+MfsYQdZ/fggYAZ9gAsiZZzwKoWK39Ag0AjnpXRTOB97mBvVgnX6ABwDHrLjGB4G2E2ecGnqW8oqd18gUaAJwpXbZtcWYD63MDzzJrra9BA4AzveuimMAb7+QLNAA4bt0XbZdgjdeU34IGACdEF27bekaImvgSGgCckF25be9GEKKZoXZPnqiJL6EBwEnRpa/UzCBoG6J1160sSa9BA4CTuns/0TLEWbInvAUNQAghhBBCCCFQ/AMqC2KcCJqSDgAAAABJRU5ErkJggg==;" vertex="1" parent="kOhy-JbrJ-AcUjXrUnMm-5">
-          <mxGeometry x="82" y="30" width="128" height="128" as="geometry" />
+        <mxCell id="6UsofuN4_2gL6w1T44JG-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAA9VJREFUeJztnVuO2zAMRdOiK0h2kP2vyTtwttB+FCwaziiyZMp83Hv+MgHGQsB7SDuOdbsRQnD54b2AVTyfz9+W/2/btpKf1U/vBRBf0lZ1L+Hbtlkf7+P7WQ1BA4ATvmpbSbdO+FlahohuBhoAnHDVqRMfLemjaDNEMwINAI57NVZLfI9oRqABwHGrPkl+9cT3ECN4mYAGAOeyqkPr9aN4zQY0ADjLq4y9fo6rZgMaAJxl1cXk27DaBDQAOOZVxeSvYZUJaABwzKqJyb8GaxPQAOCcriIm3wcrE9AA4ExXD5Mfg7MmoAHA+eW9AC/2fX97/Xg8nFbiCw0AznDfyN77Jfn3+/3t76/X63a75TXB7CxAA4BzuFqqJl+DZgIaAJy0BbDv+5dJHnkds6QtAGJDt09E6/26l4/2bKuzgLPrWM3RWYAGACfNlcBWcuW1vN9LoLw/eyXQah1RoAHAafaHKL3/6Pm7sKoXR1nHKL1ZgAYAJ+wMMJo4wboXR1nHKmgAcMIZYDZxgnXv1WcN1UxAA4DzZTL0mv6jJb9FlnVqWmcDNAA47jOAV6JmrwRWmwloAHDcDOCdfH3c0URWMQENAM7lBoiWfGE2kdlNQAOA8++ccPX5f9TkRzne2eMeRV8PoAHAWT4DZEu+gDIT0ADgLDNA1uRrqpuABgDH3ABVkq+pagIaABwzA1RNvqaaCWgAcFgA4LAAwDGbAbx63NnjjlLtOwIaABzz6wBVTVAt+QINAM6y7wKqmKBq8gUaAJzl9wNkNUH15As0ADiX/zYw+ncGVZPP3waSb7n8dwFRZ4Kqye9BA4Dj9tvAKCbQfz9K9uQLNAA47s8H8DbBKFWSL9AA4IR7UmjUhEVdVw8+KZR8xH0G0ES7ezZr8o9CA4ATzgDCrAmiPCk0evIFGgCcNHsG9RI4u+ePcHbHkNl1rIJ7BpFDhJ0BNK1ebLVr2OyeQ1F3DTsKDQBO2r2DR8/zV90R5P2kTw33DiZDpJkBNFESF2Uds9AA4ByeAYRos8Ao1vcERmG09ws0ADjDBhCqmEBAS75AA4CT9izgLFkTbw0NAM70DCBknwWycrb3CzQAOKcNINAE12CVfIEGAMfMAAJNsAbr5As0ADjmBhBoAhtWJV+gAcBZZgCBJphjdfIFGgCc5QYQxAQCjfCOJF5YnXyBBgDnMgNoOBv85ape34IGAMfNAALabODV61vQAOC4G0BTzQjREq+hAcAJVY3foY0gRDODTroQLfEaGgCc0NX5iZYZBGtDtBL+3/FSfpY0ADgpq/YIPUOMkjXhPWgAQgiB5Q/5hOMY7BaXdgAAAABJRU5ErkJggg==;" vertex="1" parent="kOhy-JbrJ-AcUjXrUnMm-5">
+          <mxGeometry x="80" y="30" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-2" value="BioMedica" style="swimlane;gradientColor=none;rounded=1;" vertex="1" parent="kOhy-JbrJ-AcUjXrUnMm-4">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-2" value="BioMedica" style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
           <mxGeometry x="230" y="30" width="217" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-3" value="Medics and paramedics" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-3" value="Medics and paramedics" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-4" value="Education" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-4" value="Education" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-5" value="Research and cure" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-5" value="Research and cure" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-6" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-6" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-7" value="&quot;Apocalypse came, and we strive to save who we can&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-7" value="&quot;Apocalypse came, and we strive to save who we can&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABE1JREFUeJztncFx2zAQRalMClANOqaEZOIO4g6c4pwOkg6SSUrIUTW4A+fgWY0MBwJALrAf/P9dbYkczf6HJQCSyyKE4OUQfQK9OJ1Oz57fdz6fd/lbvYs+ARHLtFVdSvj5fPY+3s2/z2oIGYAc+KrNJd074VvJGQLdDDIAOXDVmSYeLemtpGZAM4IMQE54Ne4t8SXQjCADkBNWfZb8vSe+hBkhygQyADnDqo5trG8lqjeQAcjpXmUa69cxqjeQAcjpVl1oyf/8+Lvp/399/dTpTNrobQIZgJz33l+IlvyUnw8fb/797tufQWdSh/2OV7+rqwlkAHLcDICe/NnpZQIZgJzNBlDyx+JtAhmAnNUGUPJj8TKBDECOCoAcFQA5zT3AbGN/6xpA+jmUNYEcW3sBGYCc6mpBT34u6d+/fFiWZVnuf/xdlqW8FpCSWxtANUPr6qEMQI77auAo0sTnkv309LTpOLnvvVteHx/VCCVkAHKKBkAb+y35rWO5N+nxzQjRJmi9KpAByJmmB0BJfg47LxQT1CIDkJM1AMrYj578FBQT1PYCMgA5sD3A2uRv3dVb+nzt+aCYoIQMQA6cAbYmP5c0rzuDLNF7MYEMQM4bA0R1/72S740dZxYTlK4GZABy4HqAWkYnP2WtCdCQAcgJN0Dr2B+d/JRWE6BdFcgA5IQboBa05KfM2hPIAORcDICy+if6kJsPkAHICesBZlvnb6W0G/lyv0LwHUgyADluBlh7D95ej2N3IvU6npcxZABy3HuAXmP6qF4BvSfxfo6hDECOCoAcFQA5KgByVADkqADIUQGQ4z4PgPa8/ZRR7wto3eEUhQxAjpsBWuembe7bVsVK2Nz62jnwUXPta9cQtBooQgjbD2AVf7/zfQE5UPY4ygDkXAxge8S0N3Cf5J4gKgOQM819AWh31KTMusdRBiAn3ACz31s3+72NMgA54QZYS7QJZh3zU2QAct4YIGo+YJZn78zyLCOj9AYRGYAcuB7AywRbya3qzZL8WmQAcuAMYFwS8/Dc9Dmvrtz2KRyPx1WfR0++IQOQkzUAyurg4fDSvM5y3Y2S/Nr3B8oA5MD2ACnoT+FCSX4rMgA5RQOg9AJGagJjtBHS/fwoyde7g0UT0/QAKWnicjOAW80w29vDW5EByKkaJ65B6QVqqX3LuIE6tpdoHfsNGYCc5h4A7aqghCU46jl8vVmbfEMGIEcFQI4KgJzV8wCz9QJ7Y+vYb8gA5GyeCZQJxuKVfEMGIMdtLUAm6It38g0ZgBz31UB0E0Q/l6+VXsk3ZAByulTVNagmQKd38g0ZgJzuBjDMBIaM8BpLvNE7+YYMQM4wA6SoN3hh1FifQwYgJ8wABltvEDXW55AByAk3QMrejICW+BQZgByoavwfqREMNDOkSTfQEp8iA5ADXZ23yJnB8DZELuFXx5vyt5QByJmyamsoGaKVWRNeQgYQQgha/gFhokMgpjpVZQAAAABJRU5ErkJggg==;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-2">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABE1JREFUeJztncFx2zAQRalMClANOqaEZOIO4g6c4pwOkg6SSUrIUTW4A+fgWY0MBwJALrAf/P9dbYkczf6HJQCSyyKE4OUQfQK9OJ1Oz57fdz6fd/lbvYs+ARHLtFVdSvj5fPY+3s2/z2oIGYAc+KrNJd074VvJGQLdDDIAOXDVmSYeLemtpGZAM4IMQE54Ne4t8SXQjCADkBNWfZb8vSe+hBkhygQyADnDqo5trG8lqjeQAcjpXmUa69cxqjeQAcjpVl1oyf/8+Lvp/399/dTpTNrobQIZgJz33l+IlvyUnw8fb/797tufQWdSh/2OV7+rqwlkAHLcDICe/NnpZQIZgJzNBlDyx+JtAhmAnNUGUPJj8TKBDECOCoAcFQA5zT3AbGN/6xpA+jmUNYEcW3sBGYCc6mpBT34u6d+/fFiWZVnuf/xdlqW8FpCSWxtANUPr6qEMQI77auAo0sTnkv309LTpOLnvvVteHx/VCCVkAHKKBkAb+y35rWO5N+nxzQjRJmi9KpAByJmmB0BJfg47LxQT1CIDkJM1AMrYj578FBQT1PYCMgA5sD3A2uRv3dVb+nzt+aCYoIQMQA6cAbYmP5c0rzuDLNF7MYEMQM4bA0R1/72S740dZxYTlK4GZABy4HqAWkYnP2WtCdCQAcgJN0Dr2B+d/JRWE6BdFcgA5IQboBa05KfM2hPIAORcDICy+if6kJsPkAHICesBZlvnb6W0G/lyv0LwHUgyADluBlh7D95ej2N3IvU6npcxZABy3HuAXmP6qF4BvSfxfo6hDECOCoAcFQA5KgByVADkqADIUQGQ4z4PgPa8/ZRR7wto3eEUhQxAjpsBWuembe7bVsVK2Nz62jnwUXPta9cQtBooQgjbD2AVf7/zfQE5UPY4ygDkXAxge8S0N3Cf5J4gKgOQM819AWh31KTMusdRBiAn3ACz31s3+72NMgA54QZYS7QJZh3zU2QAct4YIGo+YJZn78zyLCOj9AYRGYAcuB7AywRbya3qzZL8WmQAcuAMYFwS8/Dc9Dmvrtz2KRyPx1WfR0++IQOQkzUAyurg4fDSvM5y3Y2S/Nr3B8oA5MD2ACnoT+FCSX4rMgA5RQOg9AJGagJjtBHS/fwoyde7g0UT0/QAKWnicjOAW80w29vDW5EByKkaJ65B6QVqqX3LuIE6tpdoHfsNGYCc5h4A7aqghCU46jl8vVmbfEMGIEcFQI4KgJzV8wCz9QJ7Y+vYb8gA5GyeCZQJxuKVfEMGIMdtLUAm6It38g0ZgBz31UB0E0Q/l6+VXsk3ZAByulTVNagmQKd38g0ZgJzuBjDMBIaM8BpLvNE7+YYMQM4wA6SoN3hh1FifQwYgJ8wABltvEDXW55AByAk3QMrejICW+BQZgByoavwfqREMNDOkSTfQEp8iA5ADXZ23yJnB8DZELuFXx5vyt5QByJmyamsoGaKVWRNeQgYQQgha/gFhokMgpjpVZQAAAABJRU5ErkJggg==;" parent="SHEenYh97mHYKxyFgU_I-2" vertex="1">
           <mxGeometry x="89" y="30" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-8" value="DOGS" style="swimlane;gradientColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="300" width="210" height="210" as="geometry" />
+        <mxCell id="SHEenYh97mHYKxyFgU_I-14" value="PMC Hellcat" style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
+          <mxGeometry x="460" y="30" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-9" value="State" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-15" value="Military" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-14" vertex="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-10" value="Service" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-16" value="Service" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-14" vertex="1">
           <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-11" value="Control" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-17" value="Conquer" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-14" vertex="1">
           <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-12" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-18" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-14" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-13" value="&quot;Apocalypse came, and we will rein it in&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-19" value="&quot;Apocalypse came, and we will make our own place&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-14" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-14" value="PMC Hellcat" style="swimlane;gradientColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="300" width="210" height="210" as="geometry" />
+        <mxCell id="6UsofuN4_2gL6w1T44JG-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAA+xJREFUeJztnUFyFDEMRQMFSzZcgKo5BffhXNyHU3QVF8iGJQtYUEoNSjy2uyVL8v9vO6En06X/JLvN5OmJEILLu+hfwIvb7fbH8nrHcWx5r95H/wIklrJV3Uv4cRzW7/fw9aqGoAHASV+1raRbJ/wqLUNkNwMNAE666tSJz5b0WbQZshmBBgAnvBp3S3yPbEagAcAJqz5J/u6J7yFGiDIBDQDOsqpD6/WzRM0GNAA47lXGXn+OVbMBDQCOW3VFJf/b108PX//+45frv7fG2wQ0ADgfrC8Ynfwvnz+++frP599T12tdR95nlQnkPt7dV1MT0ADgmBkga/KtkffZxQQ0ADiXDYCSfM0uJqABwDltAO7wxWJlAhoAHBYAOCwAcKZnAPb+XFydBWgAcIYNwOTn5qwJaABwzJ8GehO9A6iJ2hG0ggYAp2sA9v5azM4CNAA4YTNAtrN33mT9vDQAOE0DePd+q7N7PeR6owmTn/NabaxavYzOAjQAOMtngF4vrL6u1oyaJOrz0gDglNsJHO3Rs70/6n2ioQHAeWUAr+nfeqrWCfWmtTqxSr7X7NNbDdAA4JSbATTevbdqbx+FBgDH3QDZnt9nZ/U+CA0ADgsAHBYAOC8zQNWTP6P7ALO91Ou6UbT2A2gAcMrvAwhWT9tGVy3W5xaioAHAKWuA2f0Fvb7u/dzs9arMAhoaAJx0Bug9X7+6s+h1xq9lAu8zhlehAcBJY4Bdpuoe8jmzmIAGAMfdAL0eWP1M3Sj682W5HzQAOMtmgNYZvt2T3yLL/aABwFm+CkBNfIvo+0EDgMMCAIcFAA4LABwWADgvqwA5I1b1bCB5TOvvD9IA4KR5Gtgj6/N0oeoJIRoAnPQGyJ58TTUT0ADgpDVAteRrqpiABgDnlQG4H7AXrfW/QAOAk24GqN77NdlnARoAnDQG2C35mqwmoAHAaRqAq4Ha9KZ/gQYAJ3wG2L33a7LNAjQAOF0DcBaoxWjvF2gAcMJngOzfoGFNtv8NTQOAM2wAzgK5me39Ag0AzlS13OP9t4WuYj1LWH2HkXXvP5t8gQYAJ3wVoLFKiNWqItvUbg0NAM7pGUDIvio4a4Lsyb/a+wUaAJzLM0CV/YHRb+jM/o2lVskXaABwTKronuwm6O0z7N7zNTQAOOYGELKboApeyRdoAHDcDCDQBOfwTr5AA4DjbgBBTCDQCP8jiRe8ky/QAOAsM4CGs8E/VvX6FjQAOGEGENBmg6he34IGACfcAJrdjJAt8RoaAJxU1fgW2ghCNjPopAvZEq+hAcBJXZ2PaJlBsDZEK+F371fyXtIA4JSs2hF6hpilasJ70ACEEALLX7hMDGqLWe4QAAAAAElFTkSuQmCC;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+          <mxGeometry x="82" y="30" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-15" value="Military" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-8" value="DOGS" style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
+          <mxGeometry x="10" y="250" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SHEenYh97mHYKxyFgU_I-9" value="State" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-8" vertex="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-16" value="Service" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-10" value="Service" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-8" vertex="1">
           <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-17" value="Conquer" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-11" value="Control" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-8" vertex="1">
           <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-18" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-12" value="Agency" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-8" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-19" value="&quot;Apocalypse came, and we will make our own place&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-14">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-13" value="&quot;Apocalypse came, and we will rein it in&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-8" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-20" value="Drifters" style="swimlane;gradientColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="70" width="210" height="210" as="geometry" />
+        <mxCell id="6UsofuN4_2gL6w1T44JG-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABR5JREFUeJztnT1uFEEQhRtDSACICAmEDBwBcQSEBLETuAFIXIDIFyDgBpAQg4R8Bo4ArCyQiBA4ILYJ7LdYZff2/1TN1PtCWM/M2v2+runumQ6BEOKXC9oXMIrt7e2jnsdbrVaL/F1taV8A0WW2rTqV8NVq1ft8G/9/roagAZxjvtXGkt474a3EDGHdDDSAc8y1Tpl4a0kvRZrBmhFoAOeot8alJT6FNSPQAM5Ra31I/tITnwJG0DIBDeCcyVqdt76+FK3agAZwzvBWxr6+jqlqAxrAOcNaF5Pfh9EmoAGc071VMfljGGUCGsA53VoTkz8NvU1AAzinuRX1Sv6N+9dbL2VW/Pz8q+nne5mABnDOpdofHNXnX7l7uevxwLuXP4o+//T1zSHXcfD1b5fj4Pd+6u9QZQIawDlsAM5hA3BOcb8xqu/HXcCoGgCkaoFRfT9ADdB6FyCpvSugAZyT3VpGj/TBAM++/A4hhPDh0a0h5wHSBKOT/+TT9xBCCG/vXQsh9DcAKDUBDeCc6nGAUdzeOgwh/E/MaBOMBt8D38saNIBzkgbQmuUrNQH69NF9ee55tJJfOkJIAzjHXA0gqTUBaDVC6RyC9T5fQgM4J2oAayt8UiZA0mViS41QO1JoLfm5tQAN4BzzNYCk1gSg9N/lcSXWkl8KDeAccwbYPzxuk6lE5ZoA9F4RVJp8fC9r2LwqMhlnKkOt6l+uB6hNWO7cQe14Qet1jVoPkCI2S0gDOMdcDQCQmNzEjZ5FHG0kLWgA55g1ANA2wVKTD2gA55g3AJjaBEtPPqABnLO+J9Se/St9LqA2oTt7mxfLvn94VHXc3ORrjQMAOR5AAzhnNjWApLYmCOFi5uc2M9c+X0IDOMesAWKzd3LMvtQEraSSP/UTR63QAM4xawAQm9ef2gS5yc+9XivQAM4xb4BSepugtdq3mnxAAzhncQYASOyLvf0ux0kRW41MAxDTLNYAqAFam3jpbCLvAsisWJwBeo8D5K4rsJ70GDSAc8wbILeqHj0XUPtMonUj0ADOMWuAUU/qtFL6TKJ1aADnrA2ANWLaawNzqV0T+CDzc9pPIvWGzwaSczFbA8RoXa+/Eza/J0D7SaSpoQGcMxsDTP2kjhcT0ADOMW8A7Wf0lm4CGsA5ZwxgZTxAO/mSuZogtYMIDeAcczVAr+T3mp+Xx2k1AfYMsgIN4BxzBuiV/N70MoE1aADnRA0w9d0A3pixe/KmkFffzn+DhrXn8nNNsHvn+HtN9WaQ3P0DaQDnmKsBYpQmv9fKnNT+A2Dq9xT0ggZwTtIA2rVA617CsnrPXb1bO44gTTB6r2AJ9w4mRZivAaxU+6Wsr/vkvYBWoQGck20ArVoApN4gmtovsJbYcVO1wdRvBC3t+wEN4JziGsC6CSS14wG59/+SuSQf0ADOMX8XAGKJKjUC6DVSeCCqfK23gNdCAzin2gBaawdjCXv8/GoIIYSPb/4MPT/OE4Kt9/7XQgM4p6n1nEZ7FTHAziOgtkYA1vr4XskHNIBzuhkAWDEBKN2LCGjv7SPpnXxAAzinuwHAXE3gJfmABnDOMAOAuZjAW/IBDeCc4QYAMAHQNoIcL9BOPhIPRicf0ADOmcwAEmu1gRZT9fUxaADnqBkAWKsNRqPV18egAZyjbgDJ0oxgLfESGsA5plrjeUgjAGtmkEkH1hIvoQGcY7p1biJmBtDbELGEnzrfLH+XNIBzZtlqc0gZopS5JjwFDUAIIW75B222KCThWpATAAAAAElFTkSuQmCC;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-8">
+          <mxGeometry x="80" y="30" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-21" value="Infected, anarchists" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-26" value="Civillians" style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
+          <mxGeometry x="235" y="250" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SHEenYh97mHYKxyFgU_I-27" value="Civillians, unalligned" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-26" vertex="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-22" value="Community" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-28" value="Community" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-26" vertex="1">
           <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-23" value="Survival and chaos" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-29" value="Survival" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-26" vertex="1">
           <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-24" value="Freeroam" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-30" value="Requests" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-26" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-25" value="&quot;Apocalypse came, and we will enjoy it to the fullest&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-31" value="&quot;Apocalypse came, and we will try to survive&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-26" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-26" value="Civillians" style="swimlane;gradientColor=none;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="300" width="210" height="210" as="geometry" />
+        <mxCell id="6UsofuN4_2gL6w1T44JG-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABBdJREFUeJztnVuWmzAQRCc5WYnX4mV7LWwl+eocpj2yEOqXVHX/5gXY03XVAhm+vgghuPzKPgAvHo/HX8vtHcex5Xv1O/sASC7LVnUv4cdxWO/v489XNQQNAE75qm0l3Trhs7QMUd0MNAA45apTJ75a0kfRZqhmBBoAnPRq3C3xPaoZgQYAJ636JPm7J76HGCHLBDQAOGFVhzbWj5LVG9AA4LhXWdZY3zt3P0rW8XubgAYAx626opJvnfRRol6flwloAHDMq8or+aNJfz6fP37/9Xq5/J3G6/Vbm4AGAMesmrKS30psi7sGuLu96iagAcCZriLr5FsnXmNtgNHtW79PsyagAcC5XT1RyZ9NpMbbAFf3V8UENAA4f7IPICr5Wcjr0CY4JTf8mM7QAOAMjxtWY39W8qN7gKv7t3o/R3sBGgCcy9WyevKFbAP0jiPaBDQAOGGzgOzkV6PK7IAGAKc7TsyO/dWSX6UH0Fj3BFd7ARoAnPAzgahjfo9WT+ANDQBOc3ywHvurJL9qD6DRx+nVC9AA4Jj3ANnr9HfF6/wADQCO+yygypi6GlGzAhoAnDcD8M4deyH/x9P/9dtsgAYAx6wHqDrvXx3dC1jPBmgAcFgA4LAAwGEBgMMCAOf/nPDu/H+17n+Vq4EtZq8S6quDNAA4LABwWADgsADAYQGAwwIAhwUADgsAHBYAOCwAcFgA4KTfJSyKq6tr5feqXxOwggYAZ3sD3F1Xj2ICGgCcbQ1g9Yma3U1AA4CznQG8Pku3qwloAHDe7hqx6trA6HvrZL++2bWAAg0AzvI9wN3k6wSPbmeXnoAGAGdZA1glX38fzQQ0ADhms4DT33/7OvqpXy2snwhqtZ/R47C+XyANAM5bDyAVUu1eQdGJ3KUn4J1CyUfcZwGzicgei7NMEHVmkwYAx9wAp/vSTW0nO/mt7Wb1BF69GA0ATvgzg3pJqJb8Fl7HGfWcAIEGACf8WkBrTFwl+Xq/Vj1B9HoGgQYAJ+zZwdZPEqlypk2wTrD32C/QAOCE9QBW5weqJV+wesJH9LUXGgCcyz2AYHWVcNQEVZPfYtQEVu/n1bFfoAHAGTaAEGWC1ZKv6ZkgK/kCDQBO+qpgq9nBalRZaUUDgHO7BxCs1w6u3hN4j/nC7Ngv0ADgTBtA8FpFXN0IUYkXrJIv0ADgmBlAyDKBJvsTSdWTL9AA4JgbQIj6ZFH2+YOo12edfIEGAMfNAELWZwytzZB1/F7JF2gAcNwNIIgJhCrnwqugjeWdfIEGACfMAJpq9x/IImqsb0EDgJNmAAGtN8ga61vQAOCkG0CzmxGqJV5DA4BTqhp/QhtBqGaG1pnHaonX0ADglK7OT7TMIESvR6ie9BY0ADhLVu0VeoYYZdWE96ABCCEEln8DZjbnwhacdQAAAABJRU5ErkJggg==;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+          <mxGeometry x="80" y="30" width="128" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-27" value="Civillians, unalligned" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-20" value="Drifters" style="swimlane;gradientColor=none;rounded=1;" parent="kOhy-JbrJ-AcUjXrUnMm-4" vertex="1">
+          <mxGeometry x="460" y="250" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SHEenYh97mHYKxyFgU_I-21" value="Infected, anarchists" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-20" vertex="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-28" value="Community" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-22" value="Community" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-20" vertex="1">
           <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-29" value="Survival" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-23" value="Survival and chaos" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-20" vertex="1">
           <mxGeometry x="10" y="90" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-30" value="Requests" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-24" value="Freeroam" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-20" vertex="1">
           <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SHEenYh97mHYKxyFgU_I-31" value="&quot;Apocalypse came, and we will try to survive&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-26">
+        <mxCell id="SHEenYh97mHYKxyFgU_I-25" value="&quot;Apocalypse came, and we will enjoy it to the fullest&quot;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="SHEenYh97mHYKxyFgU_I-20" vertex="1">
           <mxGeometry x="30" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6UsofuN4_2gL6w1T44JG-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABLpJREFUeJztnU1OHDEQhT1RyAEiwYYdd8oqZ8hpcgZWudPs2ICUA4QFWUQVQUFN2d1lu9zvfZsIJUM74PdVuX/cpRBCcDnNHkAv7u7uXiK/3/l8PuTP6tPsAZC5LDurvYSfz+fo4138+1UNQQOAk37WWkmPTvheLENkNwMNAE662akTny3prWgzZDMCDQDO9Nl4tMR7ZDMCDQDOtNknyT964j3ECLNMQAOAM2zWodX6Vmb1BjQAON1nGWv9Nkb1BjQAON1mF5MfQ28T0ADghM+q2cn/fnNTSinl/vFxie9bSy8T0ADghM2moyZ/1nEsok1AA4CzexahJD/LcYUoE9AA4GyePajJzzaOvSagAcD5PHsArcxOnEbGkW1ctdAA4DQbYFbtl4RlZ7QJ5Pfw6vfS1AvQAOBUG2B21y9krbG6FxjNVhPQAOCkXwX8uL0tpZTy+/l58kjakHH/fHiYPJLL0ADguAbIUvtJHa29AA0ADicAOJwA4Jg9AGv/2tT2AjQAOJwA4HACgJP+TKDw9eqqlJL3uruMS8a5CjQAOO8McNTu/9v1ddO///X01GkkY/FWAzQAOO/WhlkNIFfXBLk6aPUCrYn3sIxg1f5sVwGtu4dpAHCWWQVo9Krgz8vl1wO01nRtEP31l9PpzThWhQYAZ1kDCJJA6QnEBHu7eP15McBRki/QAOD87wizdv8avRrQeKuDrdSe6cvW/Wv0aoAGAGe5HkASZplArw6EViPoz6+efAsaAJw0BvBqeys6sa1P7LR2+a3jz2IMGgCcaQaITrxHtnW7/v/PMgINAM5wA9Su4z2yJXrvuGc9S0gDgDPMANb1fMFbp+urcfrzrUbQSWvtSfTx9dVI71qEdZ5htAloAHC6G6D1Tp5a9Of3nqv3zjAK1vhb70Dyxj/KBDQAON0M0Cv5FnqPnuhVwqzx9zYBDQBOuAFGJ1/jmcBKlFX7s4y/lwloAHC69QCjk6OpNYFF9vFHQQOAE/5kUO+nd/V6u/bu39oktSZ/63ha2ftz5ZNB5EPCeoBVd/RcjejVAA0ATpgBRnXNUmOl9sqfXu31uuqstV/otRs5DQBOmruC91JrgqjjHAUaABxzJ+lVnhW0Etm6o8fWHUey7yXkvVeQBgBn+R5ArwqEvV26V+uzJ78WGgCc5Q0gWDt6WF9brFrrt0IDgOO+W26V1YCHt8dP9B5Ds6l9qzgNAM5hegAPb3cvvdsYCjQAOK4BpIYcpRc4OrW1X6ABwDl8D1C7m7fcaZP9zSTR0ADgVNWJ16zSC2zdx3/2k01baa39Ag0ATrMBhKwmiHqDxyom2Jp8gQYA5zCrgOh39+gdQ466OqABwNncAwizegFvN+/o5+j37nIWzd7aL9AA4Ow2gNDbBFbiZ++6bT0T2csIUckXaABwwgwgZD0/sDrRyRdoAHDCDSDQBDH0Sr5AA4DTzQACTbCN3skXaABwuhtAEBMINMJbJPFC7+QLNAA4wwygYW/wj1G13oIGAGeaAQS03mBWrbegAcCZbgDN0YyQLfEaGgCcVLPxI7QRhGxm0EkXsiVeQwOAk3p2XsIygxBtCCvhr4635M+SBgBnyVlbg2eIVlZNuAcNQAghsPwF4uWV7RcE56cAAAAASUVORK5CYII=;" vertex="1" parent="SHEenYh97mHYKxyFgU_I-20">
+          <mxGeometry x="80" y="30" width="128" height="128" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
