@@ -4,7 +4,7 @@ var users: Dictionary[String, ChatUser]
 
 func _init() -> void:
 	users = {
-		"zd4da": ChatUser.new("zd4da", "red"),
+		"zd4da": Zd4da.new(),
 		"bm00n": ChatUser.new("bm00n", "royal_blue"),
 		"w3iB": ChatUser.new("w3iB", "white"),
 		"v7uga": ChatUser.new("v7uga", "sky_blue")

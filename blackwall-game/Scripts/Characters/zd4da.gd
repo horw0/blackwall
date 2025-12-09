@@ -1,4 +1,4 @@
-## Your polish tomboy bestie, Zd4da!
+## Your Polish tomboy bestie, Zd4da!
 ##
 ## It's gonna be rather easy to navigate here, but I insist you visit [ChatUser] first.[br]
 ## Such custom classes will be written for every NPC present in the game.[br]
@@ -13,6 +13,8 @@ func _init() -> void:
 ## Well, reacts! Reads [param msg] [param from] [ChatUser].
 ## [br]Calls [method write_chat] depending on message content.
 func react_to(msg: String, from: ChatUser) -> void:
+	if from.username == username: return
+	print("Called %s on message %s from %s" % [react_to, msg, from.username])
 	if username in msg:
 		write_chat("Oi there!")
 	if from.username == "bm00n":
