@@ -3,15 +3,13 @@ extends Node2D
 var users: Dictionary[String, ChatUser]
 
 func _init() -> void:
-	print("Node inited")
 	users = {
-		#"zd4da": ChatUser.new("zd4da", "red"),
-		"zd4da": Zd4da.new(),
+		"zd4da": ChatUser.new("zd4da", "red"),
 		"bm00n": ChatUser.new("bm00n", "royal_blue"),
 		"w3iB": ChatUser.new("w3iB", "white"),
 		"v7uga": ChatUser.new("v7uga", "sky_blue")
 	}
-
+	
 func _ready() -> void:
 	var chat_controller: ChatTerminal = $InnerScreen/ChatController
 	for user: ChatUser in users.values():

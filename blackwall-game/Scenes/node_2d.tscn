@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" uid="uid://5pb6xw3c05eq" path="res://Scripts/Game.gd" id="1_6whob"]
 [ext_resource type="Theme" uid="uid://cv4vrihtieiro" path="res://Themes/theme.tres" id="1_j2wod"]
-[ext_resource type="Script" uid="uid://cfinaaenmvif8" path="res://Scripts/ChatController.gd" id="2_hh5uf"]
-[ext_resource type="Script" uid="uid://bkqmmn8017i0g" path="res://Scripts/ChatInput.gd" id="2_v1qfn"]
+[ext_resource type="Script" uid="uid://cfinaaenmvif8" path="res://Scripts/ChatController.gd" id="3_hh5uf"]
+[ext_resource type="Script" uid="uid://bkqmmn8017i0g" path="res://Scripts/ChatInput.gd" id="4_6whob"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2wod"]
 bg_color = Color(0.00566115, 0.0056611523, 0.005661145, 1)
@@ -52,7 +52,7 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_y32ns")
 layout_mode = 2
 theme = ExtResource("1_j2wod")
 theme_override_constants/autohide = 0
-script = ExtResource("2_hh5uf")
+script = ExtResource("3_hh5uf")
 
 [node name="Chat" type="VBoxContainer" parent="InnerScreen/ChatController"]
 layout_mode = 2
@@ -75,7 +75,7 @@ keep_editing_on_text_submit = true
 context_menu_enabled = false
 emoji_menu_enabled = false
 caret_blink = true
-script = ExtResource("2_v1qfn")
+script = ExtResource("4_6whob")
 chat_controller = NodePath("../..")
 username = "ARC16"
 

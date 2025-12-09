@@ -1,5 +1,4 @@
-extends HSplitContainer
-class_name ChatTerminal
+class_name ChatTerminal extends HSplitContainer
 
 var online_users: Dictionary[String, ChatUser] = {}
 var chat_text: RichTextLabel

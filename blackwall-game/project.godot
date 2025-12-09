@@ -15,7 +15,7 @@ run/main_scene="uid://cf78mdoun6yfq"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 run/max_fps=30
 run/low_processor_mode=true
-config/icon="res://icon.svg"
+config/icon="uid://c5c66q4m0yn44"
 
 [debug]
 
