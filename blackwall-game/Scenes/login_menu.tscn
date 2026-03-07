@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://dco3iy8i8i8ut"]
+
+[ext_resource type="Theme" uid="uid://cv4vrihtieiro" path="res://Themes/theme.tres" id="1_k61ko"]
+
+[node name="LoginMenu" type="Control" unique_id=832985239]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_k61ko")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1133573231]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -79.0
+offset_top = -60.0
+offset_right = 79.0
+offset_bottom = 60.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="LoginLabel" type="Label" parent="VBoxContainer" unique_id=173680700]
+layout_mode = 2
+text = "Login:"
+
+[node name="LoginInput" type="LineEdit" parent="VBoxContainer" unique_id=539842784]
+layout_mode = 2
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+middle_mouse_paste_enabled = false
+caret_blink = true
+
+[node name="PasswordLabel" type="Label" parent="VBoxContainer" unique_id=1457704600]
+layout_mode = 2
+text = "Password:"
+
+[node name="PasswordInput" type="LineEdit" parent="VBoxContainer" unique_id=571116241]
+layout_mode = 2
+context_menu_enabled = false
+emoji_menu_enabled = false
+shortcut_keys_enabled = false
+middle_mouse_paste_enabled = false
+caret_blink = true
+secret = true
+secret_character = "*"

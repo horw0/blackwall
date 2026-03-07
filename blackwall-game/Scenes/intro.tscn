@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://cmihuh4waxvmi"]
+
+[ext_resource type="Theme" uid="uid://cv4vrihtieiro" path="res://Themes/theme.tres" id="1_b226h"]
+[ext_resource type="Texture2D" uid="uid://xjymiew25sbt" path="res://Sprites/WARN.png" id="2_duh1u"]
+[ext_resource type="Script" uid="uid://dxhf7t62x0bbp" path="res://Scenes/introController.gd" id="2_geirw"]
+[ext_resource type="FontFile" uid="uid://bpetvp7crhwmv" path="res://Fonts/big_pixel.ttf" id="3_alxvg"]
+
+[sub_resource type="Animation" id="Animation_hwjxs"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBC/TextureRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_geirw"]
+resource_name = "WRN_FLK"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBC/TextureRect:self_modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_hwjxs"]
+_data = {
+&"RESET": SubResource("Animation_hwjxs"),
+&"WRN_FLK": SubResource("Animation_geirw")
+}
+
+[node name="Intro" type="Control" unique_id=1955089045]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_b226h")
+script = ExtResource("2_geirw")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1669104660]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+
+[node name="VBC" type="VBoxContainer" parent="." unique_id=1279192196]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -44.5
+offset_top = -48.0
+offset_right = 44.5
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="VBC" unique_id=140031615]
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("2_duh1u")
+stretch_mode = 2
+
+[node name="Label" type="Label" parent="VBC" unique_id=732887172]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_alxvg")
+text = "
+:: WARNING ::
+CONNECTION LOST"
+horizontal_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=329459472]
+libraries/ = SubResource("AnimationLibrary_hwjxs")
+autoplay = &"WRN_FLK"

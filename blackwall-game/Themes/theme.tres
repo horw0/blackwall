@@ -1,0 +1,14 @@
+[gd_resource type="Theme" format=3 uid="uid://cv4vrihtieiro"]
+
+[ext_resource type="FontFile" uid="uid://c6rwnuf23gxvu" path="res://Fonts/small_pixel.ttf" id="1_wi0rm"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wi0rm"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wi0rm"]
+content_margin_left = 4.0
+bg_color = Color(0.07683582, 0.07683582, 0.07683582, 1)
+
+[resource]
+default_font = ExtResource("1_wi0rm")
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_wi0rm")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_wi0rm")
